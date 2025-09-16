@@ -515,9 +515,9 @@ const portfolioConfig = {
   "skills_layout_type": "skills1",
   "education_layout_type": "card",
   "work_layout_type": "card",
-  "github_repo_name": "p58",
+  "github_repo_name": "p59",
   "github_username": "Greg057",
-  "github_repo_url": "https://github.com/Greg057/p58"
+  "github_repo_url": "https://github.com/Greg057/p59"
 }
 
 export default function Portfolio() {
