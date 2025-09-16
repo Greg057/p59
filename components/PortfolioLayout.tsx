@@ -4,7 +4,7 @@ import { DEFAULT_SECTION_ORDER } from '@/types/supabase-types'
 import CustomSection3 from '@/components/custom/CustomSection3'
 import CustomSectionTimeline from '@/components/custom/CustomSectionTimeline'
 import CustomSectionList from '@/components/custom/CustomSectionList'
-import UserInfo1 from '@/components/userInfo/UserInfo1'
+import UserInfo3 from '@/components/userInfo/UserInfo3'
 import Projects1 from '@/components/projects/Projects1'
 import Skills1 from '@/components/skills/Skills1'
 
@@ -94,7 +94,7 @@ export default function PortfolioLayout({
   const sectionRenderers: Record<SectionKey, () => React.JSX.Element | null> = {
     personal: () => {
       if (!hasUserInfo) return null;
-      return <UserInfo1 personalInfo={extendedPersonalInfo} />;
+      return <UserInfo3 personalInfo={extendedPersonalInfo} />;
     },
     experience: () => {
       if (!hasExperience) return null;

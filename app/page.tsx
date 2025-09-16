@@ -504,19 +504,49 @@ const userData = {
       "updated_at": "2025-09-16T13:15:41.426+00:00"
     }
   ],
-  "customSections": [],
+  "customSections": [
+    {
+      "id": "88d851d3-f07b-4812-8c03-28142c9e3450",
+      "user_id": "dc5261d4-e9a5-43e8-9719-987a0d8124ca",
+      "section_name": "code jams",
+      "layout_type": "list",
+      "items": [
+        {
+          "id": "751d7487-0457-485d-9659-7ab425d00594",
+          "logoUrl": "/p59/user-files/dc5261d4-e9a5-43e8-9719-987a0d8124ca/custom-sections/751d7487-0457-485d-9659-7ab425d00594-logo-1758064570674.png",
+          "location": "SF",
+          "logoFile": null,
+          "orderIndex": 0,
+          "customLinks": [
+            {
+              "id": "2f721c7b-c5a5-4e50-ba4f-d34f0b6b6a33",
+              "url": "demo",
+              "icon": "website",
+              "title": "demo"
+            }
+          ],
+          "description": "did this and that",
+          "primaryTitle": "test",
+          "secondaryTitle": "google"
+        }
+      ],
+      "created_at": "2025-09-16T23:16:37.198+00:00",
+      "updated_at": "2025-09-16T23:16:37.198+00:00"
+    }
+  ],
   "sectionOrder": [
     "personal",
     "education",
     "experience",
     "projects",
-    "skills"
+    "skills",
+    "88d851d3-f07b-4812-8c03-28142c9e3450"
   ]
 }
 
 // Component layout preferences
 const portfolioConfig = {
-  "user_info_layout_type": "userInfo1",
+  "user_info_layout_type": "userInfo3",
   "projects_layout_type": "projects1",
   "skills_layout_type": "skills1",
   "education_layout_type": "timeline",
