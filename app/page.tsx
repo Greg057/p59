@@ -39,7 +39,7 @@ const userData = {
       "university": "University of California, Berkeley",
       "start_year": "2015",
       "end_year": "2019",
-      "description": "Relevant Coursework:\nData Structures, Algorithms, Operating Systems, Databases, Machine Learning, Software Engineering.",
+      "description": "Relevant Coursework:\r\nData Structures, Algorithms, Operating Systems, Databases, Machine Learning, Software Engineering.",
       "logoUrl": null,
       "order_index": 0,
       "custom_links": [],
@@ -54,7 +54,7 @@ const userData = {
       "position": "Software Engineer",
       "start_date": "Jan 2021",
       "end_date": "Present",
-      "description": "- Designed and developed scalable microservices in Java and Node.js, reducing system downtime by 30%.\n- Implemented CI/CD pipelines with GitHub Actions and Docker, improving deployment speed by 40%.\n- Optimized database queries in PostgreSQL, cutting average response time by 25%.\n- Collaborated with a team of 8 engineers using Agile, consistently delivering features within sprint deadlines.\n- Mentored junior developers, leading to faster onboarding and reduced code review issues.",
+      "description": "- Designed and developed scalable microservices in Java and Node.js, reducing system downtime by 30%.\r\n- Implemented CI/CD pipelines with GitHub Actions and Docker, improving deployment speed by 40%.\r\n- Optimized database queries in PostgreSQL, cutting average response time by 25%.\r\n- Collaborated with a team of 8 engineers using Agile, consistently delivering features within sprint deadlines.\r\n- Mentored junior developers, leading to faster onboarding and reduced code review issues.",
       "logoUrl": null,
       "order_index": 0,
       "custom_links": [],
@@ -67,7 +67,7 @@ const userData = {
       "position": "Junior Software Engineer",
       "start_date": "Jun 2019",
       "end_date": "Dec 2020",
-      "description": "- Built front-end features with React and integrated REST APIs for an e-commerce platform serving 50k+ users.\n- Wrote unit and integration tests, increasing code coverage from 60% to 85%.\n- Supported migration of legacy PHP application to Node.js, improving maintainability.\n- Partnered with UX designers to enhance customer checkout flow, resulting in 15% increase in conversions.\n- Automated deployment scripts with Jenkins, cutting manual release steps by 70%.",
+      "description": "- Built front-end features with React and integrated REST APIs for an e-commerce platform serving 50k+ users.\r\n- Wrote unit and integration tests, increasing code coverage from 60% to 85%.\r\n- Supported migration of legacy PHP application to Node.js, improving maintainability.\r\n- Partnered with UX designers to enhance customer checkout flow, resulting in 15% increase in conversions.\r\n- Automated deployment scripts with Jenkins, cutting manual release steps by 70%.",
       "logoUrl": null,
       "order_index": 1,
       "custom_links": [],
@@ -79,7 +79,7 @@ const userData = {
       "id": "dbba291c-15d8-4738-9f9c-719ae59558c9",
       "user_id": "dc5261d4-e9a5-43e8-9719-987a0d8124ca",
       "name": "Portfolio Builder Web App",
-      "description": "- Developed a customizable portfolio generator using Next.js and Supabase.\n- Implemented user authentication, template themes, and image upload features.\n- Deployed application on Vercel with continuous integration.",
+      "description": "- Developed a customizable portfolio generator using Next.js and Supabase.\r\n- Implemented user authentication, template themes, and image upload features.\r\n- Deployed application on Vercel with continuous integration.",
       "picUrl": null,
       "order_index": 0,
       "technology_names": [
@@ -100,7 +100,7 @@ const userData = {
       "id": "e6581e31-1365-482d-a3d4-4ca990e5d7c1",
       "user_id": "dc5261d4-e9a5-43e8-9719-987a0d8124ca",
       "name": "Movie Recommendation System",
-      "description": "- Built a Python-based ML model using scikit-learn to recommend movies with 82% accuracy.\n- Deployed the model as a Flask API and integrated it into a React front end.\n- Conducted A/B testing with 200+ users, improving recommendation relevance by 18%.",
+      "description": "- Built a Python-based ML model using scikit-learn to recommend movies with 82% accuracy.\r\n- Deployed the model as a Flask API and integrated it into a React front end.\r\n- Conducted A/B testing with 200+ users, improving recommendation relevance by 18%.",
       "picUrl": null,
       "order_index": 1,
       "technology_names": [
@@ -123,7 +123,7 @@ const userData = {
       "id": "8a823965-08fc-43ae-8611-ef58ef073eb1",
       "user_id": "dc5261d4-e9a5-43e8-9719-987a0d8124ca",
       "name": "Task Manager Mobile App",
-      "description": "- Created a cross-platform mobile app using React Native for task tracking.\n- Integrated push notifications and offline storage using SQLite.\n- Achieved 1,000+ downloads with positive feedback on UI/UX.",
+      "description": "- Created a cross-platform mobile app using React Native for task tracking.\r\n- Integrated push notifications and offline storage using SQLite.\r\n- Achieved 1,000+ downloads with positive feedback on UI/UX.",
       "picUrl": null,
       "order_index": 2,
       "technology_names": [
@@ -505,7 +505,13 @@ const userData = {
     }
   ],
   "customSections": [],
-  "sectionOrder": null
+  "sectionOrder": [
+    "personal",
+    "education",
+    "experience",
+    "projects",
+    "skills"
+  ]
 }
 
 // Component layout preferences
@@ -513,7 +519,7 @@ const portfolioConfig = {
   "user_info_layout_type": "userInfo1",
   "projects_layout_type": "projects1",
   "skills_layout_type": "skills1",
-  "education_layout_type": "card",
+  "education_layout_type": "timeline",
   "work_layout_type": "card",
   "github_repo_name": "p59",
   "github_username": "Greg057",

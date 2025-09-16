@@ -124,11 +124,11 @@ export default function PortfolioLayout({
     },
     education: () => {
       if (!hasEducation) return null;
-      return <CustomSection3 section={{
+      return <CustomSectionTimeline section={{
         id: 'education',
         user_id: '',
         section_name: 'Education',
-        layout_type: 'card' as const,
+        layout_type: 'timeline' as const,
         items: educations.map((edu: any, index: number) => ({
           id: edu.id,
           primaryTitle: edu.university || 'University',
